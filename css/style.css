@@ -1,0 +1,104 @@
+/* font-family: 'Montserrat', sans-serif; 100, 400, 900
+font-family: 'Ubuntu', sans-serif; */
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#title {
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+
+.home-nav {
+    background-color: #ffffff00;
+    color: #fff;
+    padding: 2% 5% 0 5%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.vbs-info {
+    color: #fff;
+    margin: 10% 0 0 0;
+    padding-bottom: 20px;
+}
+
+.image-container {
+    padding: 0;
+}
+
+.vbs-image {
+    height: 50%;
+    width: auto;
+    transform: rotate(-20deg);
+    margin: 22% 0 0 0;
+}
+
+#roles {
+    text-align: center;
+}
+
+#roles .row {
+    margin: 2% 0;
+    padding: 0 2%;
+}
+
+.role-col {
+    margin: 2% 0;
+}
+
+#duties {
+    text-align: center;
+}
+
+#duties .row {
+    margin: 2% 0;
+    padding: 0 2%;
+}
+
+#duties h2 {
+    font-weight: 900;
+}
+
+#duties ul {
+    list-style-type: none;
+}
+
+.duties-col {
+    margin: 2% 0;
+}
+
+@media (max-width: 600px) {
+    .vbs-image {
+        height: 200px;
+    }
+    .vbs-info {
+        padding: 15px;
+    }
+    .image-container {
+        height: 75%;
+    }
+}
