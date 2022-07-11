@@ -109,6 +109,12 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+.floorplan {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
 @media (max-width: 600px) {
     .vbs-image {
         height: 200px;
